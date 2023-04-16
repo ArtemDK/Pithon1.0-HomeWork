@@ -15,10 +15,11 @@ def exit_calculate() -> int:
     if close_dig == 2:
         quit()
 
+
 while True:
     num_1 = int(input('Число 1: '))
-    num_2 = int(input('Число 1: '))
-    operator = int(input('''Введите номер соответсвующее знаку операции над числами:
+    num_2 = int(input('Число 2: '))
+    operator = int(input('''Введите номер соответсвующий знаку операции над числами:
 1 - "+"
 2 - "-"
 3 - "*"
